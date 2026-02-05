@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "headers": {
+        "Location": "https://sites.google.com/view/YOURSITE/404"
+      }
+    }
+  ]
+}
